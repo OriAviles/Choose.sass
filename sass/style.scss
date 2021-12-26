@@ -1,0 +1,82 @@
+/* vars */
+$font: Permanent Marker, cursive;
+
+
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: gold;
+    text-align: center;
+    font-family: $font;
+    font-size: 40px;
+}
+
+h2{
+    font-family: $font;
+    color: black;
+    
+}
+
+.col{
+    background-color: rgb(252, 252, 74);
+    text-align: center;
+}
+
+
+
+#footer{
+    background-image: linear-gradient(rgba(5, 10, 5, 0.80), rgba(82, 83, 68, 0.589)), url(../multimedia/gym.jpg);
+    height: 200px;
+    width: auto;
+    font-family: $font;
+    padding-top: 40px;
+    color: white;
+
+    h3{
+        font-family: $font;
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .menu_footer{
+        align-items: center;
+        text-align:center ;
+        li {
+            position: relative;
+            display: inline-block;
+            padding: 10px
+
+            
+            }
+            li a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                color: white;
+                text-align: center;
+            }
+        }
+        .sociales{  
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content:space-evenly;
+            margin: 29px;
+            }
+
+            .pie_final{
+                background-color: black;
+                width: auto;
+                padding: 10px 0;
+                text-align:left;
+                color: white;
+                font-size: 0.5rem;
+            }
+    }
